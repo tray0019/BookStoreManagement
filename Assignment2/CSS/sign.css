@@ -1,0 +1,312 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;    
+}
+
+* {
+    font-family: 'Arial', sans-serif; /* Added a generic font family */
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-image: url(/Assignment2/BooksPhotos/Background/books.jpg);    
+    background-size: cover; /* Updated background size to cover */     
+}
+/*
+Top container focus on H1 and navigation
+*/
+#topBox{
+    border: solid 1px black;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;   
+}
+/*
+Bottom container focus on search bar and books library
+*/
+#bottomBox{
+    border: solid 1px black;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;     
+}
+
+h1{
+    display: inline;
+    font-size: 5em;
+}
+
+#main-in {
+    background-color: antiquewhite;
+    width: 400px;
+    max-width: 80%; /* Made the width responsive */
+    height: 380px;
+    border: 1px solid;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    margin: 10% auto; /* Centered the main container */
+    font-size: 1em; /* Used relative font size */
+    padding: 20px; /* Increased padding for better spacing */
+    box-sizing: border-box; /* Added box-sizing for better size calculation */
+}
+
+#main-up {
+    background-color: antiquewhite;    
+    max-width: 35%; /* Made the width responsive */
+    border: 1px solid;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    margin: 5% auto; /* Centered the main container */
+    font-size: 1em; /* Used relative font size */
+    padding: 5px; /* Increased padding for better spacing */
+    box-sizing: border-box; /* Added box-sizing for better size calculation */
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+#main-mem {
+    background-color: antiquewhite;
+    max-width: 70%; /* Made the width responsive */
+    border: 1px solid;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    margin: 5% auto; /* Centered the main container */
+    font-size: 1em; /* Used relative font size */
+    padding: 20px; /* Increased padding for better spacing */
+    box-sizing: border-box; /* Added box-sizing for better size calculation */
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+#main-book {
+    background-color: antiquewhite;
+    max-width: 80%; /* Made the width responsive */
+    border: 1px solid;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    margin: 5% auto; /* Centered the main container */
+    font-size: 1.2em; /* Used relative font size */
+    padding: 10px; /* Increased padding for better spacing */
+    box-sizing: border-box; /* Added box-sizing for better size calculation */
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.labels{
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 100%; /* Made buttons and input fields responsive */
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Added border color for input fields */    
+}
+
+.textlable{
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgb(205, 125, 50);
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%; /* Made buttons and input fields responsive */
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: rgba(226, 125, 43, 0.932); /* Added background color on hover */
+}
+
+header {
+    background-color: #633621;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 2em; /* Used relative font size for header h1 */
+}
+/*
+Home,Account and Sign-up container
+*/
+.Nav{
+        
+    border: solid 1px black;
+    width: 50%;
+    margin: 50px;
+    text-align: center;
+}
+
+nav ul li {    
+    display: inline;
+    margin-right: 10px; /* Added margin between navigation items */    
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1em;
+    font-size: 35px;        
+    font-weight: bold;              
+}
+
+h2{
+    margin:0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+input{
+    padding-left: 2px;
+    height: 1.5em;
+    width: 10%;
+    font-size: 15px;
+    width: 10%;
+    border-radius: 10px;
+}
+/*
+Search container
+*/
+.search{    
+    width: 700%;    
+    justify-content: center;
+    align-items: center;       
+}
+
+.books{
+    border: solid 1px black;
+    width: 24%;
+    height: 28em;
+    margin: 5px;
+    text-align: center;   
+}
+
+.allBooks{
+    border: solid black 1px;
+    margin: 1% 5% 1% 5%;
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+.BooksPhotos{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 650px) {
+    .search input {
+        width: 80%; /* full width */
+        margin: 0; /* remove any margins that might be there */
+        box-sizing: border-box; /* to make sure padding doesn't add to the width */
+    }
+    .allBooks {
+        flex-direction: column;
+    }
+    .books {
+        width: 100%; /* full width */
+        margin: 5px 0; /* stack them with vertical space */
+    }
+
+    /* Adjust the container sizes as well */
+    #topBox, #bottomBox {
+        width: 100%; /* full width */
+        margin: 0; /* remove the margin */
+        padding: 10px; /* add some padding so content doesn't touch the edges */
+    }
+}
+
+.h1form {
+    margin-bottom: 30px;
+}
+
+.signing-link {
+    cursor: pointer;
+}
+
+.error-container {
+    display: inline;
+    color: red;
+    margin-top: 5px; /* Adjust the margin as needed */
+}
+
+.error-message {
+    flex-grow: 1;
+    margin-right: 10px; /* Adjust the margin as needed*/ 
+    display: inline;
+}
+
+.error-text {
+    display: inline;
+}
+
+.error-border {
+    border: 2px solid red;
+}
+
+.error-cross {
+    text-align: left; /* Align the cross mark to the left */
+    display: inline;
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 60px; /* Set the height of your footer */
+    background-color: #633621;
+    color: #fff;
+    text-align: center;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

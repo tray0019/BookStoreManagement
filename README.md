@@ -2,8 +2,6 @@
 Bookstore Management Web ApplicationBookstore Management Web Application
 Sep 2023 - Oct 2023Sep 2023 - Oct 2023
 
-Associated with Algonquin College of Applied Arts and TechnologyAssociated with Algonquin College of Applied Arts and Technology
-Sept 2023 - Nov 2023
 Role: Project Leader & Developer
 • Technologies Used: PHP, JavaScript, HTML, CSS, Apache, MySQL
 Project Description:
